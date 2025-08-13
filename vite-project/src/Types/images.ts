@@ -17,6 +17,13 @@ import cloudApp from "../assets/images/cloud_app.png"
 import cloudPlatform from "../assets/images/cloud_platform.png"
 import dell from "../assets/images/dell.png"
 import cloud_solution from "../assets/images/cloud_solution.png"
+import linux_banner from "../assets/images/Linux-banner.png"
+import linux_os from "../assets/images/linux-os.png"
+import linux_support from "../assets/images/linux-support.png"
+import redhat from "../assets/images/redhat.png"
+
+
+
 
 export const images ={
     logo,
@@ -38,4 +45,8 @@ export const images ={
     cloud_solution,
     MTN_Logo,
     cloud,
+    linux_banner,
+    linux_os,
+    linux_support,
+    redhat,
 }

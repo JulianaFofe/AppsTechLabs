@@ -1,18 +1,24 @@
 import React from 'react'
+import { images } from '../../Types/images';
 
 interface SubtitleProps{
-    title: string,
-    description: string
-    className?: string
+    title?: string,
+    description?: string,
+    className?: string,
 }
 
-const Subtitle : React.FC<SubtitleProps> = ({title, description, className}) => {
+const Subtitle: React.FC<SubtitleProps> = ({
+  title,
+  description,
+  className,
+}) => {
   return (
-    <div>
-      <h1 className={className}>{title}</h1>
-      <p className='text-accent text-[20px] pt-7'>{description}</p>
+    <div className={className}>
+      <h1>{title}</h1>
+    <p>{description}</p>
     </div>
-  )
-}
+  );
+};
+
 
 export default Subtitle

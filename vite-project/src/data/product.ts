@@ -3,7 +3,7 @@
         title:"Cloud solution",
         path:"/cloud_solutions",
     },
-    {
+     {
         title:"Mobile Security",
         path:"/mobile_security",
     },
@@ -21,7 +21,7 @@
         
     },
     {
-        title:"Oracle Database",
-        path:"/oracle_database",
+        title:"Oracle Business Suit",
+        path:"/oracle_suit",
     }
 ]

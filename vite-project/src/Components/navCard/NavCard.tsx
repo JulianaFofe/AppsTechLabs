@@ -52,9 +52,9 @@ export const NavCardData = [
         icon:<FaTv size={30}/>
     },
     {
-        title:"Oracle Database",
+        title:"Oracle Business Suit",
         description:"AppsTech Labs is a solution center created to showcase",
-        path:"/oracle_database",
+        path:"/oracle_suit",
         icon:<BsFillSuitcaseLgFill size={30} />
     }
 ]
@@ -94,7 +94,8 @@ export const expertiseCardData = [
 
 function NavCard({items}:CardProps) {
   return (
-    <div className='grid grid-cols-1 gap-5 px-3 mt-10 md:grid-cols-3 md:mt-5 md:gap-10 py-5 md:px-6 z-50'>
+    <div className='grid grid-cols-1 gap-5 px-3 mt-10 md:grid-cols-3 md:mt-5
+        <div className="max-w-[100px] md:max-w-[150px]"> md:gap-10 py-5 md:px-6 z-50'>
       {
         items.map((item) =>(
             <Link to={item.path} className='p-1 md:p-3 max-w-[370px] bg-white rounded-xl shadow-lg inset-shadow-xs flex items-center gap-x-4'>
