@@ -2,7 +2,7 @@
 function OracleEbusiness() {
   return (
     <div>
-      
+      <p>OracleEBusiness</p>
     </div>
   )
 }

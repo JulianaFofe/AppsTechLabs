@@ -3,7 +3,7 @@ import React from 'react';
 function Comunity() {
   return (
     <div>
-      <p>community</p>
+      <p>Community</p>
     </div>
   );
 }

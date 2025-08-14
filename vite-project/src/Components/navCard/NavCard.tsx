@@ -1,12 +1,14 @@
 import { Link } from 'react-router-dom';
 import { IoIosCloudOutline } from "react-icons/io";
 import { GoShieldCheck } from "react-icons/go";
-import { FaTv } from "react-icons/fa";
+import { FaGlobe, FaRegNewspaper, FaTv, FaUserEdit } from "react-icons/fa";
 import { FaCartShopping, FaMobileScreenButton } from 'react-icons/fa6';
 import { BsFillSuitcaseLgFill, BsPeopleFill } from "react-icons/bs";
 import { TbLicense } from "react-icons/tb";
 import { CgDatabase } from "react-icons/cg";
 import { MdMiscellaneousServices } from "react-icons/md";
+import { FcAbout } from "react-icons/fc";
+import { MdOutlineDeveloperMode } from "react-icons/md";
 import type { ReactNode } from 'react';
 
 interface CardProps{
@@ -52,9 +54,9 @@ export const NavCardData = [
         icon:<FaTv size={30}/>
     },
     {
-        title:"Oracle Database",
+        title:"Oracle Business Suit",
         description:"AppsTech Labs is a solution center created to showcase",
-        path:"/oracle_database",
+        path:"/oracle_suit",
         icon:<BsFillSuitcaseLgFill size={30} />
     }
 ]
@@ -89,6 +91,39 @@ export const expertiseCardData = [
         description:"AppsTech Labs is a solution center created to showcase",
         path:"/approach",
         icon:<BsPeopleFill size={30}/>
+    }
+]
+
+export const companyNavCardData = [
+    {
+        title:"About",
+        description:"Our Story",
+        path:"/about",
+        icon:<FcAbout size={30} />
+    },
+     {
+        title:"News and Events",
+        description:"AppsTech Labs is a solution center created to showcase",
+        path:"/news",
+        icon:<FaRegNewspaper size={30}/>
+    },
+    {
+        title:"Community outreach",
+        description:"AppsTech Labs is a solution center created to showcase",
+        path:"/community_outreach",
+        icon:<FaGlobe size={30} />
+    },
+    {
+        title:"AppsTech Labs",
+        description:"AppsTech Labs is a solution center created to showcase",
+        path:"/appstechlabs",
+        icon:<MdOutlineDeveloperMode size={30}/>
+    },
+    {
+        title:"Careers",
+        description:"AppsTech Labs is a solution center created to showcase",
+        path:"/careers",
+        icon:<FaUserEdit size={30}/>
     }
 ]
 

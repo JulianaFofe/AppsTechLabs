@@ -42,7 +42,7 @@ function Footer() {
           <Link className="text-sm font-small py-2 text-accent hover:text-primary" to={'/blog'}>Other locations</Link>
         </div>
       </div>
-      <div className="flex flex-col items-center gap-y-5 md:gap-y-5 md:items-end">
+      <div className="flex flex-col items-center gap-y-5 md:gap-y-5 md:items-end md:max-w-[200px]">
         <Link to={'/'} className="max-w-[100px] md:max-w-[130px]">
           <img className="w-full" src={images.logo} alt="logo" />
         </Link>
