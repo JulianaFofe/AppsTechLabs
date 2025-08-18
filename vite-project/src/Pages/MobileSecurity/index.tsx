@@ -1,11 +1,11 @@
 import React from 'react'
 
-function index() {
+function MobileSecurity() {
   return (
     <div>
-      
+      <p>Mobile Security</p>
     </div>
   )
 }
 
-export default index
+export default MobileSecurity

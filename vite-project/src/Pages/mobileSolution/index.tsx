@@ -2,7 +2,7 @@
 function MobileSolution() {
   return (
     <div>
-      <p>hello</p>
+      <p>Mobile Solution</p>
     </div>
   )
 }

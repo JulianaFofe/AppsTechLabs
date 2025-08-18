@@ -4,8 +4,9 @@ import { FaChevronDown, FaChevronRight, FaChevronUp } from "react-icons/fa6";
 import { IoCloseCircleOutline } from "react-icons/io5";
 import { MdOutlineMenu } from "react-icons/md";
 import { images } from "../../Types/images";
-import NavCard, { expertiseCardData } from "../../Components/navCard/NavCard";
+import NavCard, { companyNavCardData, expertiseCardData } from "../../Components/navCard/NavCard";
 import { NavCardData } from "../../Components/navCard/NavCard";
+
 interface Props{
   className?:string
 }
@@ -14,6 +15,7 @@ interface Props{
 function NavLinks({className}:Props) {
   const [toggleChevron1, setToggleChevron1] = useState(true)
   const [toggleChevron, setToggleChevron] = useState(true)
+  const [toggleCompany, setToggleCompany] = useState(true)
   const [showNav, setShowNav] = useState(false)
   
   return (
@@ -42,7 +44,16 @@ function NavLinks({className}:Props) {
             { toggleChevron?<FaChevronDown/> :<FaChevronUp/>}
             {!toggleChevron && 
             <div className="md:absolute w-full top-12 left-0 md:bg-white flex justify-center shadow-xl">
-              <NavCard items={expertiseCardData} />{/* cards for products  */}
+              <NavCard items={expertiseCardData} />{/* cards for experties  */}
+            </div>}
+          </li>
+    
+          <li onClick={() => (setToggleCompany(!toggleCompany))} className="flex items-center gap-x-2 cursor-pointer">
+              <p>Company</p>
+            { toggleCompany?<FaChevronDown/> :<FaChevronUp/>}
+            {!toggleCompany && 
+            <div className="md:absolute w-full top-12 left-0 md:bg-white flex justify-center shadow-xl">
+              <NavCard items={companyNavCardData} />{/* cards for company  */}
             </div>}
           </li>
         
@@ -58,7 +69,7 @@ function NavLinks({className}:Props) {
           ?
           <MdOutlineMenu onClick={()=> setShowNav(true)} size={30} className="md:hidden"/>
           :
-          <div className="bg-white absolute w-[90%] top-2 right-2 rounded-2xl h-[30vh] shadow-xl inset-shadow-sm md:hidden">
+          <div className="z-50 bg-white absolute w-[90%] top-2 right-2 rounded-2xl h-[50vh] shadow-xl inset-shadow-sm md:hidden">
             <ul className="pt-[2rem] pl-10 block flex flex-col items-start gap-5  md:hidden ">
               <li>
                 <Link to="/">Home</Link>
@@ -80,6 +91,19 @@ function NavLinks({className}:Props) {
                 {!toggleChevron &&
                   <div className="absolute bg-white z-40 right-1 top-1 w-[100%] shadow-xl inset-shadow-sm flex justify-center md:hidden rounded-xl">
                      <NavCard items={expertiseCardData}/>
+                     <IoCloseCircleOutline size={30} className=" absolute top-1 right-1 text-secondary md: z-40 "/>
+                  </div>
+                }
+              </li>
+
+              <li onClick={() => (setToggleCompany(!toggleCompany))} className="flex items-center gap-x-2 cursor-pointer ">
+                  <p>Company</p>
+                { toggleCompany?<FaChevronRight/> :<FaChevronUp/>}
+                {!toggleCompany &&
+                  <div className="absolute bg-white z-40 right-1 top-1 w-[100%] shadow-xl inset-shadow-sm flex justify-center md:hidden rounded-xl">
+                     <NavCard items={companyNavCardData
+
+                     }/>
                      <IoCloseCircleOutline size={30} className=" absolute top-1 right-1 text-secondary md: z-40 "/>
                   </div>
                 }
