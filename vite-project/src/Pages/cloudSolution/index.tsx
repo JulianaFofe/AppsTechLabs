@@ -1,8 +1,8 @@
-import React from "react";
 import HeaderTitle from "../../Components/HeaderTitle/HeaderTitle";
 import { images } from "../../Types/images";
 import Subtitle from "../../Components/Subtitle";
 import Button from "../../Components/Button/Button";
+import Section from "../../Components/Section";
 
 function CloudSolution() {
   return (
@@ -21,35 +21,29 @@ function CloudSolution() {
       </div>
 
       {/*Cloud Platform*/}
-      <div className="flex items-center justify-center gap-30 py-20">
-        <div className="w-90">
-          <Subtitle
-            className="text-primary text-4xl font-bold"
-            title="Cloud Platform"
-            description="Explore a wide range of  Oracle cloud services with just one click"
-          />
-          <Button title="Learn More" />
-        </div>
-        <div>
-          <img src={images.cloudPlatform} alt="" />
-        </div>
+      <div className="flex items-center justify-center px-10 py-20">
+        <Section heading="Cloud Platform" image={images.cloudPlatform} className="flex-col  md:flex-row">
+          <div className="flex flex-col max-md:text-center">
+            <p>
+              Explore a wide range of Oracle cloud services with just one click
+            </p>
+            <Button title="Learn More" />
+          </div>
+        </Section>
       </div>
 
       {/*Cloud Infrastructure*/}
-      <div className="flex items-center justify-center gap-50 py-20">
-        <div>
-          <img src={images.cloud} alt="" />
-        </div>
-        <div>
-          <div className="w-90">
-            <Subtitle
-              className="text-primary text-4xl font-bold "
-              title="Cloud Infrastructure"
-              description="Oracle’s Cloud Platform provides a shared and elastically scalabel platform for consolidating existing applications and developing and deploying new applications."
-            />
+      <div className="flex items-center justify-center px-6 py-20">
+        <Section heading="Cloud Infrastructure" image={images.cloud} className="flex-col items-center max-sm:flex-col flex-row-reverse">
+          <div className="flex flex-col max-md:text-center">
+            <p>
+              Oracle’s Cloud Platform provides a shared and elastically scalabel
+              platform for consolidating existing applications and developing
+              and deploying new applications.
+            </p>
             <Button title="Learn More" />
           </div>
-        </div>
+        </Section>
       </div>
 
       {/*Cloud Applications*/}

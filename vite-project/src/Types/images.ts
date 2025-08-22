@@ -2,7 +2,7 @@ import logo from "../assets/images/Logo.png"
 import logo1 from "../assets/images/logo1.png"
 import map from "../assets/images/Screenshot 2025-08-08 104747.png"
 import members from "../assets/images/members.png"
-import workers from "../assets/images/workers.png"
+import workers from "../assets/images/worker.jpg"
 import lady_smiling from "../assets/images/lady_smiling.png"
 import team from "../assets/images/team.png"
 import visual_lense from "../assets/images/visual_lense.png"
@@ -17,11 +17,21 @@ import cloudApp from "../assets/images/cloud_app.png"
 import cloudPlatform from "../assets/images/cloud_platform.png"
 import dell from "../assets/images/dell.png"
 import cloud_solution from "../assets/images/cloud_solution.png"
+import mobileSolution from "../assets/images/mobileSolution.png"
+import people_office from "../assets/images/people_office.jpg"
+import internship from "../assets/images/internship.jpg"
+import mobiles from "../assets/images/mobiles.png"
+import CorporateMeeting from "../assets/images/CorporateMeeting.jpg"
+import easyApp from "../assets/images/easyApp.png"
+import mobileDashboard from "../assets/images/mobileDashboard.png"
 
 export const images ={
     logo,
     logo1,
     members,
+    mobileDashboard,
+    easyApp,
+    internship,
     workers,
     lady_smiling,
     team,
@@ -34,8 +44,12 @@ export const images ={
     atlantic,
     cloudPlatform,
     dell,
+    mobiles,
     cloudApp,
     cloud_solution,
     MTN_Logo,
+    people_office,
+    CorporateMeeting,
     cloud,
+    mobileSolution
 }
