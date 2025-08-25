@@ -28,7 +28,7 @@ function Blog() {
         descriptionClass='text-center leading-7 whitespace-pre-line text-sm'        
         className='w-[70%] max-md:w-[50%] xl:w-[40%]'
         />
-        <div className='max-md:text-center'>
+        <div className='max-md:text-center flex-col'>
         <InfoBloc
         title='Oracle  E-Business Suite security'
         description='There are so many misconceptions about securing Oracle E-Business Suite applications that most 
@@ -36,7 +36,7 @@ function Blog() {
           E-Business is more than just installing an antivirus on the system or attributing passwords. Security comes at 
           different levels and in different forms, from data loss or theft to fraud passing by misusing system privileges 
           are all security threats and risks for the application. '
-           titleClass="text-4xl text-blue-600 indent-18 max-md:indent-0 font-bold pb-7 2xl:text-6xl"
+           titleClass="text-4xl text-blue-600 lg:indent-18 font-bold pb-7 2xl:text-6xl"
           descriptionClass="text-sm text-black 2xl:text-xl"
         />
         <div className='md:text-right md:mr-15'><Button title='Read more'/></div>
@@ -44,22 +44,24 @@ function Blog() {
       </div>
         <div className="mt-20 flex max-md:flex-col justify-center items-center gap-10 max-md:px-10 px-20 w-full">
         <InfoBloc
-        image={images.bl1}
+        image={images.boss3}
         imageClass='w-[100%]'
-        description='Stella Joyce Bulu
-                     AppsTech Apps DBA'
+        description='Rebecca Enonchong
+                     AppsTech CEO'
         descriptionClass='text-center leading-7 whitespace-pre-line text-sm'        
-        className='w-[70%] max-md:w-[50%]'
+        className='w-[120%] max-md:w-[50%] xl:w-[60%]'
         />
-        <div className='max-md:text-center'>
+        <div className='max-md:text-center flex-col'>
         <InfoBloc
-        title='Oracle  E-Business Suite security'
-        description='There are so many misconceptions about securing Oracle E-Business Suite applications that most 
-          Apps DBAs call Myths.Fortunately versus these myths are realities that show that security in your Oracle 
-          E-Business is more than just installing an antivirus on the system or attributing passwords. Security comes at 
-          different levels and in different forms, from data loss or theft to fraud passing by misusing system privileges 
-          are all security threats and risks for the application. '
-           titleClass="text-4xl text-blue-600 indent-18 max-md:indent-0 font-bold pb-7 2xl:text-6xl"
+        title='AppsTech CEO Featured in Forbes'
+        description='Enonchong, a Cameroonian national, is the founder and CEO of AppsTech, a Bethesda, Maryland-based 
+          global provider of enterprise application solutions. AppsTech, which was founded in 1999 now has clients 
+          in more than 40 countries on 3 continents. The company, an Oracle Platinum partner, offers a diverse range
+          of enterprise software products and services including implementation, training and application management 
+          services for large and medium-sized companies. Enonchong also serves as an advisor/mentor to several 
+          African tech startups and is also the founder the Africa Technology Forum, a non-profit organization dedicated 
+          to promoting technology in Africa.'
+           titleClass="text-4xl text-blue-600 lg:indent-18 font-bold pb-7 2xl:text-6xl"
           descriptionClass="text-sm text-black 2xl:text-xl"
         />
         <div className='md:text-right md:mr-15'><Button title='Read more'/></div>
