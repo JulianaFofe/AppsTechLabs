@@ -1,7 +1,6 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import NavLinks from "./Containers/Navigation";
 import Home from "./Pages/Home";
-import Internship from "./Pages/Internship";
 import CloudSolution from "./Pages/cloudSolution";
 import MobileSecurity from "./Pages/MobileSecurity";
 import MobileSolution from "./Pages/mobileSolution";
@@ -20,6 +19,7 @@ import Lisence from "./Pages/license";
 import DBservices from "./Pages/oracleDBsevrice";
 import OracleEbusinessServices from "./Pages/Oracle E-business Suite services/OracleEbusinessServices";
 import ManagedServicces from "./Pages/Managed_Services";
+import Form from "./Components/Form";
 
 function App() {
   return (
@@ -28,7 +28,6 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/blog" element={<Blog/>}/>
-        <Route path="/internship" element={<Internship />} />
         <Route path="/cloud_solutions" element={<CloudSolution />} />
         <Route path="/mobile_security" element={<MobileSecurity />} />
         <Route path="/mobile_solution" element={<MobileSolution />} />
@@ -45,6 +44,7 @@ function App() {
         <Route path="/oracle_database_services" element={<DBservices/>}/>
         <Route path="/oracle_e_business_suit" element={<OracleEbusinessServices/>}/>
         <Route path="/managed_services" element={<ManagedServicces/>}/>
+        <Route path="/internship" element={<Form />}/>
       </Routes>
       <Footer/>
     </BrowserRouter>
