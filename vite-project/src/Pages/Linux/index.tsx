@@ -1,3 +1,7 @@
+import React from 'react';
+import InfoBloc from '../../Components/InfoBloc';
+import { images } from '../../Types/images';
+
 function Linux() {
   return (
 
@@ -25,7 +29,7 @@ function Linux() {
       </div>
 
       {/* Operating System Section */}
-       <div className='relative mb-20 max-md:mb-20'>
+       <div className='relative mb-5 max-md:mb-20'>
          <InfoBloc
           image={images.linux_os}
           imageClass='w-[100%] h-full object-contain'
@@ -62,7 +66,7 @@ function Linux() {
       
 
       {/* Support Section */}
-       <div className='relative mb-20 max-md:mb-20'>
+       <div className='relative mb-5 max-md:mb-20'>
          <InfoBloc
           image={images.linux_support}
           imageClass='w-[100%] h-full object-contain '
@@ -88,7 +92,7 @@ function Linux() {
 
       {/* Red Hat Section */}
        
-       <div className='relative mb-20 max-md:mb-90 2xl:mb-60 max-lg:mb-70'>
+       <div className='relative mb-5 max-md:mb-90 2xl:mb-60 max-lg:mb-70'>
         <InfoBloc
           image={images.redhat}
           imageClass='w-[100%] h-full object-contain '
