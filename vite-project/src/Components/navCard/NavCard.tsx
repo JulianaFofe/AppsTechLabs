@@ -1,8 +1,6 @@
-/* eslint-disable react-refresh/only-export-components */
 import { Link } from 'react-router-dom';
 import { IoIosCloudOutline } from "react-icons/io";
 import { GoShieldCheck } from "react-icons/go";
-import { BiBrain } from "react-icons/bi";
 import { FaGlobe, FaRegNewspaper, FaTv, FaUserEdit } from "react-icons/fa";
 import { FaCartShopping, FaMobileScreenButton } from 'react-icons/fa6';
 import { BsFillSuitcaseLgFill, BsPeopleFill } from "react-icons/bs";
@@ -31,7 +29,7 @@ export const NavCardData = [
         path:"/cloud_solutions",
         icon:<IoIosCloudOutline size={30} />
     },
-    {
+     {
         title:"Mobile Security",
         description:"AppsTech Labs is a solution center created to showcase",
         path:"/mobile_security",
@@ -56,16 +54,10 @@ export const NavCardData = [
         icon:<FaTv size={30}/>
     },
     {
-        title:"Oracle Database",
+        title:"Oracle Business Suit",
         description:"AppsTech Labs is a solution center created to showcase",
-        path:"/oracle_database",
+        path:"/oracle_suit",
         icon:<BsFillSuitcaseLgFill size={30} />
-    },
-    {
-        title:"Business Intelligence",
-        description:"AppsTech Labs is a solution center created to showcase",
-        path:"/oracle_intelligence",
-        icon:<BiBrain size={30} />
     }
 ]
 
@@ -76,7 +68,7 @@ export const expertiseCardData = [
         path:"/license_management",
         icon:<TbLicense size={30} />
     },
-    {
+     {
         title:"Oracle Database Services",
         description:"AppsTech Labs is a solution center created to showcase",
         path:"/oracle_database_service",
@@ -137,13 +129,13 @@ export const companyNavCardData = [
 
 function NavCard({items}:CardProps) {
   return (
-    <div className='grid grid-cols-1 gap-5 px-3 mt-10 md:grid-cols-3 md:mt-5 md:gap-10 py-5 md:px-6 z-50'>
+    <div className='animate-slide-down overflow-y-auto scroll-smooth grid grid-cols-1 gap-5 px-3 mt-10 md:grid-cols-3 md:mt-5 md:gap-10 py-5 md:px-6 z-50'>
       {
         items.map((item) =>(
             <Link to={item.path} className='p-1 md:p-3 max-w-[370px] bg-white rounded-xl shadow-lg inset-shadow-xs flex items-center gap-x-4'>
                 <div className='text-primary'>{item.icon}</div>
                 <div>
-                    <h3 className='font-medium text-lg md:text-xl md:font-medium'>{item.title}</h3>
+                    <h3 className='font-medium text-lg text-black md:text-xl md:font-medium'>{item.title}</h3>
                     <p className='text-accent'>{item.description}</p>
                 </div>
             </Link>

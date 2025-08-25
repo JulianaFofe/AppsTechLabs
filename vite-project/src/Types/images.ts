@@ -37,6 +37,15 @@ import mobileDashboard from "../assets/images/mobileDashboard.png"
 import inforDisc from "../assets/images/InforDisc.jpg"
 import mobileBI from "../assets/images/mobileBI.jpg"
 import realTime from "../assets/images/Rtdm.jpg"
+import globe from "../assets/images/globe.png"
+import safety from "../assets/images/safety.jpg"
+import partnership from "../assets/images/partnership.jpg"
+import innovation from "../assets/images/light-bulb-with-drawing-graph.jpg"
+import founder from "../assets/images/Rectangle 75.png"
+import puzzle from "../assets/images/skills-intelligence-occupation-recruitment-talent.jpg"
+import whatWeDo from "../assets/images/top-viewtop-view-manager-employee-doing-teamwork-business-office-looking-charts-laptop-display.jpg"
+import worldmap from "../assets/images/global-globalization-world-map-environmental-concservation-concept.jpg"
+import whatweDo2 from "../assets/images/new_whatwedo.jpg"
 
 
 export const images ={
@@ -78,5 +87,14 @@ export const images ={
     rebecca,
     inforDisc,
     mobileBI,
-    realTime
+    realTime,
+    globe,
+    safety,
+    partnership,
+    innovation,
+    founder,
+    whatWeDo,
+    worldmap,
+    puzzle,
+    whatweDo2
 }
