@@ -11,7 +11,7 @@ app = FastAPI()
 #alows fastapi to interact and share resources with frontend running in the given url
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173"],#the frontend url
+    allow_origins=["http://localhost:5174"],#the frontend url
     allow_credentials = True,#allows froontend to send cookies or authentication headers
     allow_methods=["*"],#specifies what HTTP methods are required for the front end("*" means all methods)
     allow_headers=["*"]#allows front end to send all custom headers
