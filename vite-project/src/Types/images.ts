@@ -48,7 +48,7 @@ export const images ={
     visual_lense,
     trophy,
     Afriland,
-     map,
+    map,
     oracle,
     mastercard,
     atlantic,

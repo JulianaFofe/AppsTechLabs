@@ -17,9 +17,9 @@ import AppstechLabs from "./Pages/appstechlabs";
 import Careers from "./Pages/careers/Careers";
 import Approach from "./Pages/Approach";
 import Lisence from "./Pages/license";
-import DBservices from "./Pages/oracleDBsevrice";
-import OracleEbusinessServices from "./Pages/Oracle E-business Suite services/OracleEbusinessServices";
+import DBservices from "./Pages/oracleIntelligence";
 import ManagedServicces from "./Pages/Managed_Services";
+import OracleIntelligence from "./Pages/oracleIntelligence";
 
 function App() {
   return (
@@ -33,7 +33,8 @@ function App() {
         <Route path="/mobile_security" element={<MobileSecurity />} />
         <Route path="/mobile_solution" element={<MobileSolution />} />
         <Route path="/oracle_e_bsns" element={<OracleEbusiness />} />
-        <Route path="/oracle_database" element={<OracleDatabase/>} />
+        <Route path="/oracle_database" element={<OracleDatabase />} />
+        <Route path="/oracle_intelligence" element={<OracleIntelligence/>} />
         <Route path="/linux" element={<Linux />} />
         <Route path="/about" element={<About/>}/>
         <Route path="/news" element={<News/>}/>
@@ -43,7 +44,6 @@ function App() {
         <Route path="/approach" element={<Approach/>}/>
         <Route path="/license_management" element={<Lisence/>}/>
         <Route path="/oracle_database_services" element={<DBservices/>}/>
-        <Route path="/oracle_e_business_suit" element={<OracleEbusinessServices/>}/>
         <Route path="/managed_services" element={<ManagedServicces/>}/>
       </Routes>
       <Footer/>
