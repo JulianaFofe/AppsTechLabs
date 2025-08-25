@@ -1,6 +1,8 @@
+/* eslint-disable react-refresh/only-export-components */
 import { Link } from 'react-router-dom';
 import { IoIosCloudOutline } from "react-icons/io";
 import { GoShieldCheck } from "react-icons/go";
+import { BiBrain } from "react-icons/bi";
 import { FaGlobe, FaRegNewspaper, FaTv, FaUserEdit } from "react-icons/fa";
 import { FaCartShopping, FaMobileScreenButton } from 'react-icons/fa6';
 import { BsFillSuitcaseLgFill, BsPeopleFill } from "react-icons/bs";
@@ -29,7 +31,7 @@ export const NavCardData = [
         path:"/cloud_solutions",
         icon:<IoIosCloudOutline size={30} />
     },
-     {
+    {
         title:"Mobile Security",
         description:"AppsTech Labs is a solution center created to showcase",
         path:"/mobile_security",
@@ -54,10 +56,16 @@ export const NavCardData = [
         icon:<FaTv size={30}/>
     },
     {
-        title:"Oracle Business Suit",
+        title:"Oracle Database",
         description:"AppsTech Labs is a solution center created to showcase",
-        path:"/oracle_suit",
+        path:"/oracle_database",
         icon:<BsFillSuitcaseLgFill size={30} />
+    },
+    {
+        title:"Business Intelligence",
+        description:"AppsTech Labs is a solution center created to showcase",
+        path:"/oracle_intelligence",
+        icon:<BiBrain size={30} />
     }
 ]
 
@@ -68,7 +76,7 @@ export const expertiseCardData = [
         path:"/license_management",
         icon:<TbLicense size={30} />
     },
-     {
+    {
         title:"Oracle Database Services",
         description:"AppsTech Labs is a solution center created to showcase",
         path:"/oracle_database_service",
