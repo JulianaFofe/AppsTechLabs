@@ -34,6 +34,10 @@ import tweet1 from "../assets/images/tweet1.png"
 import tweet2 from "../assets/images/tweet2.png"
 import tweet3 from "../assets/images/tweet3.png"
 import mobileDashboard from "../assets/images/mobileDashboard.png"
+import inforDisc from "../assets/images/InforDisc.jpg"
+import mobileBI from "../assets/images/mobileBI.jpg"
+import realTime from "../assets/images/Rtdm.jpg"
+
 
 export const images ={
     logo,
@@ -72,4 +76,7 @@ export const images ={
     tweet2,
     tweet3,
     rebecca,
+    inforDisc,
+    mobileBI,
+    realTime
 }
