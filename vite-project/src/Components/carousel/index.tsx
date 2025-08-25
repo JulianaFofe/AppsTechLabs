@@ -17,7 +17,7 @@ const Carousel: React.FC<CarouselProps> = ({ CarouselImages, interval = 3000 }) 
   }, [CarouselImages.length, interval]);
 
   return (
-    <div className="relative  mx-auto overflow-hidden">
+    <div className="relative  mx-auto overflow-hidden brightness-30">
       <div className="h-200">
         <img
           src={CarouselImages[currentIndex]}
