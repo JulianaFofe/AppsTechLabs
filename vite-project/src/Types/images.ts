@@ -23,6 +23,16 @@ import internship from "../assets/images/internship.jpg"
 import mobiles from "../assets/images/mobiles.png"
 import CorporateMeeting from "../assets/images/CorporateMeeting.jpg"
 import easyApp from "../assets/images/easyApp.png"
+import CEO from "../assets/images/CEO.png"
+import oracleDb from "../assets/images/oracleDb.png"
+import oracleMember from "../assets/images/oracleMember.png"
+import rebecca from "../assets/images/rebecca.png"
+import post1 from "../assets/images/post1.png"
+import post2 from "../assets/images/post2.png"
+import post3 from "../assets/images/post3.png"
+import tweet1 from "../assets/images/tweet1.png"
+import tweet2 from "../assets/images/tweet2.png"
+import tweet3 from "../assets/images/tweet3.png"
 import mobileDashboard from "../assets/images/mobileDashboard.png"
 
 export const images ={
@@ -51,5 +61,15 @@ export const images ={
     people_office,
     CorporateMeeting,
     cloud,
-    mobileSolution
+    mobileSolution,
+    oracleDb,
+    oracleMember,
+    post1,
+    post3,
+    post2,
+    CEO,
+    tweet1,
+    tweet2,
+    tweet3,
+    rebecca,
 }

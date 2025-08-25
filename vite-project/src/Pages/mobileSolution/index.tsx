@@ -25,7 +25,7 @@ function MobileSolution() {
         </div>
 
         {/*Enterprise Mobility*/}
-        <div className="flex flex-col items-center justify-center py-40">
+        <div className="flex flex-col items-center justify-center py-40 max-lg:py-20 max-lg:px-5">
           <h1 className="text-primary text-4xl font-bold text-center">
             Enterprise Mobility is Transformational.
           </h1>
@@ -43,7 +43,7 @@ function MobileSolution() {
         <h1 className="text-primary text-4xl font-bold text-center">
           Make Your Business Mobile with Us
         </h1>
-        <div className="flex items-center justify-center px-6 py-20">
+        <div className="flex items-center justify-center px-6 py-20 max-lg:py-0">
           <Section
             heading="Quickly access your dashboards from anywhere"
             image={images.mobileDashboard}
@@ -58,7 +58,7 @@ function MobileSolution() {
           </Section>
         </div>
 
-        <div className="flex items-center justify-center px-6 py-20">
+        <div className="flex items-center justify-center px-6 py-20 max-lg:py-0">
           <Section
             heading="Improve Your Business  with  Easy Apps"
             image={images.easyApp}
