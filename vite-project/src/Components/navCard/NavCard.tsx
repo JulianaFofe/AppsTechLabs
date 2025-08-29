@@ -53,11 +53,11 @@ export const NavCardData = [
         path:"/linux",
         icon:<FaTv size={30}/>
     },
-    {
-        title:"Oracle Business Suit",
+    { 
+        title:"Oracle Database",
         description:"AppsTech Labs is a solution center created to showcase",
-        path:"/oracle_suit",
-        icon:<BsFillSuitcaseLgFill size={30} />
+        path:"/oracle_database",
+        icon:<CgDatabase size={30}/>
     }
 ]
 
@@ -91,7 +91,7 @@ export const expertiseCardData = [
         description:"AppsTech Labs is a solution center created to showcase",
         path:"/approach",
         icon:<BsPeopleFill size={30}/>
-    }
+    },
 ]
 
 export const companyNavCardData = [
