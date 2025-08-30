@@ -7,7 +7,7 @@ function Blog() {
   return (
     <>
     {/* Banner Section */}
-      <div className="text-center mt-20 w-full px-20 max-md:px-10">
+      <div className="text-center pt-20 w-full px-20 max-md:px-10">
         <InfoBloc
           title="AppsTech Innovation for smarter Business"
           description="Discover the ideas and innovation driving AppsTech. On our blog, we explore industry trends, 
