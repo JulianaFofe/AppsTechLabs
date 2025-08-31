@@ -107,7 +107,7 @@ export const images ={
     redhat,
     linux_os,
     linux_support,
-    linux_banner
+    linux_banner,
     bl1,
     boss3,
 }
