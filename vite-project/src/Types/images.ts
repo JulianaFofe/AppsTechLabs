@@ -47,6 +47,10 @@ import whatWeDo from "../assets/images/top-viewtop-view-manager-employee-doing-t
 import worldmap from "../assets/images/global-globalization-world-map-environmental-concservation-concept.jpg"
 import whatweDo2 from "../assets/images/new_whatwedo.jpg"
 
+import redhat from "../assets/images/redhat.png"
+import linux_os from "../assets/images/Oracle-Linux 1.png"
+import linux_support from "../assets/images/linux-support.png"
+import linux_banner from "../assets/images/Linux-banner.png"
 
 export const images ={
     logo,
@@ -96,5 +100,9 @@ export const images ={
     whatWeDo,
     worldmap,
     puzzle,
-    whatweDo2
+    whatweDo2,
+    redhat,
+    linux_os,
+    linux_support,
+    linux_banner
 }
