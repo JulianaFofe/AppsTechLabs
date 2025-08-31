@@ -46,6 +46,9 @@ import puzzle from "../assets/images/skills-intelligence-occupation-recruitment-
 import whatWeDo from "../assets/images/top-viewtop-view-manager-employee-doing-teamwork-business-office-looking-charts-laptop-display.jpg"
 import worldmap from "../assets/images/global-globalization-world-map-environmental-concservation-concept.jpg"
 import whatweDo2 from "../assets/images/new_whatwedo.jpg"
+import bl1 from "../assets/images/bl1.png"
+import boss3 from "../assets/images/boss3.png"
+
 
 import redhat from "../assets/images/redhat.png"
 import linux_os from "../assets/images/Oracle-Linux 1.png"
@@ -104,5 +107,7 @@ export const images ={
     redhat,
     linux_os,
     linux_support,
-    linux_banner
+    linux_banner,
+    bl1,
+    boss3,
 }
