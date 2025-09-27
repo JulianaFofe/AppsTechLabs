@@ -54,6 +54,8 @@ import linux_support from "../assets/images/linux-support.png"
 import linux_banner from "../assets/images/Linux-banner.png"
 import license from "../assets/images/license.jpeg"
 import oracleDB from "../assets/images/oracleDB.jpg"
+import career from "../assets/images/career.jpg"
+import e_services from "../assets/images/eracle_e_services.jpg"
 import certificate1 from '../assets/images/O_SpecPlat_DatabaseSecurity_clr.png'
 import certificate2 from '../assets/images/O_SpecPlat_OracleDB11g_PerfTuning_clr 1.png'
 import certificate3 from '../assets/images/O_SpecPlat_OracleEntMngr11g_clr.png'
@@ -115,6 +117,8 @@ export const images ={
     boss3,
     license,
     oracleDB,
+    career,
+    e_services,
     certificate1,
     certificate2,
     certificate3,
