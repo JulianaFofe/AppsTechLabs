@@ -54,6 +54,8 @@ import linux_support from "../assets/images/linux-support.png"
 import linux_banner from "../assets/images/Linux-banner.png"
 import license from "../assets/images/license.jpeg"
 import oracleDB from "../assets/images/oracleDB.jpg"
+import career from "../assets/images/career.jpg"
+import e_services from "../assets/images/eracle_e_services.jpg"
 
 export const images ={
     logo,
@@ -111,5 +113,7 @@ export const images ={
     bl1,
     boss3,
     license,
-    oracleDB
+    oracleDB,
+    career,
+    e_services
 }
