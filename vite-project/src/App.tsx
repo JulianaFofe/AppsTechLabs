@@ -20,6 +20,7 @@ import Lisence from "./Pages/license";
 import ManagedServicces from "./Pages/Managed_Services";
 import OracleIntelligence from "./Pages/oracleIntelligence";
 import DBservices from "./Pages/DBservices";
+import Oracle_E_Business from "./Pages/oracle_e_buisiness_services";
 
 function App() {
   return (
@@ -40,11 +41,12 @@ function App() {
         <Route path="/news" element={<News/>}/>
         <Route path="/comunity" element={<Comunity/>}/>
         <Route path="/appstechlabs" element={<AppstechLabs/>}/>
-        <Route path="/career" element={<Careers/>}/>
+        <Route path="/careers" element={<Careers/>}/>
         <Route path="/approach" element={<Approach/>}/>
         <Route path="/license_management" element={<Lisence/>}/>
         <Route path="/oracle_database_service" element={<DBservices/>}/>
         <Route path="/managed_services" element={<ManagedServicces/>}/>
+        <Route path="/oracle_e_business_suit" element={<Oracle_E_Business/>}/>
       </Routes>
       <Footer/>
     </BrowserRouter>
