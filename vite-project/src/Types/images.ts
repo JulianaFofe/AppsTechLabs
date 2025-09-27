@@ -54,6 +54,9 @@ import linux_support from "../assets/images/linux-support.png"
 import linux_banner from "../assets/images/Linux-banner.png"
 import license from "../assets/images/license.jpeg"
 import oracleDB from "../assets/images/oracleDB.jpg"
+import certificate1 from '../assets/images/O_SpecPlat_DatabaseSecurity_clr.png'
+import certificate2 from '../assets/images/O_SpecPlat_OracleDB11g_PerfTuning_clr 1.png'
+import certificate3 from '../assets/images/O_SpecPlat_OracleEntMngr11g_clr.png'
 
 export const images ={
     logo,
@@ -111,5 +114,8 @@ export const images ={
     bl1,
     boss3,
     license,
-    oracleDB
+    oracleDB,
+    certificate1,
+    certificate2,
+    certificate3,
 }
