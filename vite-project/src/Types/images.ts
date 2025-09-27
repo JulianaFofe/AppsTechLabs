@@ -48,12 +48,12 @@ import worldmap from "../assets/images/global-globalization-world-map-environmen
 import whatweDo2 from "../assets/images/new_whatwedo.jpg"
 import bl1 from "../assets/images/bl1.png"
 import boss3 from "../assets/images/boss3.png"
-
-
 import redhat from "../assets/images/redhat.png"
 import linux_os from "../assets/images/Oracle-Linux 1.png"
 import linux_support from "../assets/images/linux-support.png"
 import linux_banner from "../assets/images/Linux-banner.png"
+import license from "../assets/images/license.jpeg"
+import oracleDB from "../assets/images/oracleDB.jpg"
 
 export const images ={
     logo,
@@ -110,4 +110,6 @@ export const images ={
     linux_banner,
     bl1,
     boss3,
+    license,
+    oracleDB
 }

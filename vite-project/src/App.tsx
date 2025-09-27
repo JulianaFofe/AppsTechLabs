@@ -17,9 +17,9 @@ import AppstechLabs from "./Pages/appstechlabs";
 import Careers from "./Pages/careers/Careers";
 import Approach from "./Pages/Approach";
 import Lisence from "./Pages/license";
-import DBservices from "./Pages/oracleIntelligence";
 import ManagedServicces from "./Pages/Managed_Services";
 import OracleIntelligence from "./Pages/oracleIntelligence";
+import DBservices from "./Pages/DBservices";
 
 function App() {
   return (
@@ -43,7 +43,7 @@ function App() {
         <Route path="/career" element={<Careers/>}/>
         <Route path="/approach" element={<Approach/>}/>
         <Route path="/license_management" element={<Lisence/>}/>
-        <Route path="/oracle_database_services" element={<DBservices/>}/>
+        <Route path="/oracle_database_service" element={<DBservices/>}/>
         <Route path="/managed_services" element={<ManagedServicces/>}/>
       </Routes>
       <Footer/>
