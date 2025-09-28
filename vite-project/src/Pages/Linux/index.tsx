@@ -23,7 +23,7 @@ function Linux() {
             database, management tools, operating system and hardware, along with a single point of support. Oracle invests 
             significantly in testing Oracle Linux and releasing critical bug fixes faster, enabling enterprises to deploy with confidence. 
             An Oracle Linux Support provides industry-leading global support for the Linux operating system at dramatically lower cost.'
-          titleClass="text-4xl text-blue-600 font-bold pb-7 2xl:text-6xl"
+          titleClass="text-4xl text-primary font-bold pb-7 2xl:text-6xl"
           descriptionClass="text-sm text-black whitespace-pre-line 2xl:text-xl"
         />
       </div>
@@ -36,7 +36,7 @@ function Linux() {
           className='w-[15%] h-40  max-md:w-full md:hidden max'/>
         <InfoBloc
           title="Operating System"
-          titleClass="text-4xl w-full text-center text-center text-blue-600 font-bold max-md:px-8 2xl:text-6xl"
+          titleClass="text-4xl w-full text-center text-center text-primary font-bold max-md:px-8 2xl:text-6xl"
         />
         <div className='flex md:justify-center gap-5 text-center w-[100%]'>
         <InfoBloc
@@ -73,7 +73,7 @@ function Linux() {
           className='w-[15%] h-40 max-md:flex max-md:w-full md:hidden'/>
         <InfoBloc
           title="Support"
-          titleClass="text-4xl w-full text-center text-blue-600 font-bold 2xl:text-6xl"
+          titleClass="text-4xl w-full text-center text-primary font-bold 2xl:text-6xl"
         />
         <div className='flex md:justify-center gap-5 text-center w-[100%]'>
         <InfoBloc
@@ -99,7 +99,7 @@ function Linux() {
           className='w-[15%] h-40 max-md:flex max-md:w-full md:hidden'/>
         <InfoBloc 
           title="Red Hat Enterprise Linux Server"
-          titleClass="text-4xl w-full text-center text-center text-blue-600 font-bold max-md:px-8 2xl:text-6xl"
+          titleClass="text-4xl w-full text-center text-center text-primary font-bold max-md:px-8 2xl:text-6xl"
         />
         <div className='flex md:justify-center gap-5 text-center w-[100%]'>
         <InfoBloc
@@ -114,7 +114,7 @@ function Linux() {
                 hardware platforms and thousands of applications, and powering critical operations like trades,<br />
                 purchases, and analysis daily.
               </p>
-              <span className="text-3xl text-blue-600 font-bold max-md:px-2 2xl:text-5xl">Built for the modern data center</span>
+              <span className="text-3xl text-primary font-bold max-md:px-2 2xl:text-5xl">Built for the modern data center</span>
               <p className="pt-5">
                 Red Hat Enterprise Linux is designed for modern datacenters, offering pervasive networking, virtualization, 
                 strong security, and support for multicore hardware. It enables seamless transitions to next-generation 

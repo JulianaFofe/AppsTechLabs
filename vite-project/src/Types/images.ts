@@ -48,6 +48,7 @@ import worldmap from "../assets/images/global-globalization-world-map-environmen
 import whatweDo2 from "../assets/images/new_whatwedo.jpg"
 import bl1 from "../assets/images/bl1.png"
 import boss3 from "../assets/images/boss3.png"
+
 import redhat from "../assets/images/redhat.png"
 import linux_os from "../assets/images/Oracle-Linux 1.png"
 import linux_support from "../assets/images/linux-support.png"
@@ -59,6 +60,10 @@ import e_services from "../assets/images/eracle_e_services.jpg"
 import certificate1 from '../assets/images/O_SpecPlat_DatabaseSecurity_clr.png'
 import certificate2 from '../assets/images/O_SpecPlat_OracleDB11g_PerfTuning_clr 1.png'
 import certificate3 from '../assets/images/O_SpecPlat_OracleEntMngr11g_clr.png'
+import business from "../assets/images/business.jpg"
+import oracle_certified from "../assets/images/oracle_certified.jpg"
+import global from "../assets/images/global.jpeg"
+import AGS_logo from "../assets/images/AGS_logo.png"
 
 export const images ={
     logo,
@@ -122,4 +127,8 @@ export const images ={
     certificate1,
     certificate2,
     certificate3,
+    business,
+    oracle_certified,
+    global,
+    AGS_logo,
 }

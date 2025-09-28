@@ -13,7 +13,7 @@ function Blog() {
           description="Discover the ideas and innovation driving AppsTech. On our blog, we explore industry trends, 
           share breakthroughs, and offer a behind-the-scenes look at our journey
           to build better solutions.."
-          titleClass="text-4xl text-blue-600 font-bold pb-7 2xl:text-6xl"
+          titleClass="text-4xl text-primary font-bold pb-7 2xl:text-6xl"
           descriptionClass="text-sm text-black whitespace-pre-line 2xl:text-xl"
         />
       </div>
@@ -36,7 +36,7 @@ function Blog() {
           E-Business is more than just installing an antivirus on the system or attributing passwords. Security comes at 
           different levels and in different forms, from data loss or theft to fraud passing by misusing system privileges 
           are all security threats and risks for the application. '
-           titleClass="text-4xl text-blue-600 lg:indent-18 font-bold pb-7 2xl:text-6xl"
+           titleClass="text-4xl text-primary lg:indent-18 font-bold pb-7 2xl:text-6xl"
           descriptionClass="text-sm text-black 2xl:text-xl"
         />
         <div className='md:text-right md:mr-15'><Button title='Read more'/></div>
@@ -61,7 +61,7 @@ function Blog() {
           services for large and medium-sized companies. Enonchong also serves as an advisor/mentor to several 
           African tech startups and is also the founder the Africa Technology Forum, a non-profit organization dedicated 
           to promoting technology in Africa.'
-           titleClass="text-4xl text-blue-600 lg:indent-18 font-bold pb-7 2xl:text-6xl"
+           titleClass="text-4xl text-primary lg:indent-18 font-bold pb-7 2xl:text-6xl"
           descriptionClass="text-sm text-black 2xl:text-xl"
         />
         <div className='md:text-right md:mr-15'><Button title='Read more'/></div>
@@ -88,7 +88,7 @@ function Blog() {
             </>
           }
                                                                                                                                                                                                       
-          titleClass="text-3xl text-center text-blue-600 font-bold pb-7 2xl:text-6xl"
+          titleClass="text-3xl text-center text-primary font-bold pb-7 2xl:text-6xl"
           descriptionClass="text-sm text-black 2xl:text-xl"/>
           <div className='md:text-right md:mr-15'>
           <Button title='Read more'/>
@@ -101,12 +101,12 @@ function Blog() {
             <>
             <ul>
               <li className='pb-1'>
-                Redwood Shores, Calif. – September 19, 2013
+                Redwood Shores, Calif. – September 19, 2013
               </li>
               <li>
                 With the complexities of today’s global business environments, organizations depend on the high availability of their mission-critical systems. 
-                To help customers manage that complexity and ensure continuous operation of their key business processes, Oracle has released Oracle E-
-                Business Suite 12.2. The latest release introduces Online Patching to support organizations with high-availability requirements by dramatically 
+                To help customers manage that complexity and ensure continuous operation of their key business processes, Oracle has released Oracle E-
+                Business Suite 12.2. The latest release introduces Online Patching to support organizations with high-availability requirements by dramatically 
                 reducing planned maintenance downtimes, increases performance by exploiting latest, cutting-edge features of the Oracle platform, and 
                 provides cross-industry enhancements spanning key business applications. With the powerful new capabilities, organizations will be able to 
                 leverage an integrated suite of business applications to make better decisions, reduce costs and increase performance.      
@@ -115,7 +115,7 @@ function Blog() {
             </>
           }
                                                                                                                                                                                                       
-          titleClass="text-3xl text-center text-blue-600 font-bold pb-7 2xl:text-6xl"
+          titleClass="text-3xl text-center text-primary font-bold pb-7 2xl:text-6xl"
           descriptionClass="text-sm text-black 2xl:text-xl"/>
           <div className='md:text-right md:mr-15'>
           <Button title='Read more'/>
@@ -129,11 +129,11 @@ function Blog() {
             <>
             <ul>
               <li className='pb-1'>
-                Redwood Shores, Calif. – July 1, 2013
+                Redwood Shores, Calif. – July 1, 2013
               </li>
               <li>
                 As organizations embrace the cloud, they seek technologies that will transform business and improve their overall operational agility and 
-                effectiveness. Oracle Database 12c is a next-generation database designed to meet these needs, providing a new multitenant architecture on 
+                effectiveness. Oracle Database 12c is a next-generation database designed to meet these needs, providing a new multitenant architecture on 
                 top of a fast, scalable, reliable, and secure database platform. By plugging into the cloud with Oracle Database 12c, customers can improve 
                 the quality and performance of applications, save time with maximum availability architecture and storage management and simplify 
                 database consolidation by managing hundreds of databases as one
@@ -144,7 +144,7 @@ function Blog() {
             </>
           }
                                                                                                                                                                                                       
-          titleClass="text-3xl text-center text-blue-600 font-bold pb-7 2xl:text-6xl"
+          titleClass="text-3xl text-center text-primary font-bold pb-7 2xl:text-6xl"
           descriptionClass="text-sm text-black 2xl:text-xl"/>
           <div className='md:text-right md:mr-15'>
           <Button title='Read more'/>
@@ -175,7 +175,7 @@ function Blog() {
             </>
           }
                                                                                                                                                                                                       
-          titleClass="text-3xl text-center text-blue-600 font-bold pb-7 2xl:text-6xl"
+          titleClass="text-3xl text-center text-primary font-bold pb-7 2xl:text-6xl"
           descriptionClass="text-sm text-black 2xl:text-xl"/>
           <div className='md:text-right md:mr-15'>
           <Button title='Read more'/>
