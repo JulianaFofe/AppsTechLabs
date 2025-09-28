@@ -63,6 +63,7 @@ import certificate3 from '../assets/images/O_SpecPlat_OracleEntMngr11g_clr.png'
 import business from "../assets/images/business.jpg"
 import oracle_certified from "../assets/images/oracle_certified.jpg"
 import global from "../assets/images/global.jpeg"
+import AGS_logo from "../assets/images/AGS_logo.png"
 
 export const images ={
     logo,
@@ -129,4 +130,5 @@ export const images ={
     business,
     oracle_certified,
     global,
+    AGS_logo,
 }
