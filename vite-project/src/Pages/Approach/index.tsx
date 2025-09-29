@@ -25,7 +25,7 @@ function Approach() {
             </p>
             <p className="mt-4 text-gray-700 leading-relaxed">
               Our unique methodologies, like our 
-              <span className="text-secondary hover:border-b-2">FastApps for Oracle E-Business Suite</span>,
+               <span className="text-secondary hover:border-b-2"> FastApps for Oracle E-Business Suite, </span>
               are tailored to meet our customers’ needs.
             </p>
           </div>
