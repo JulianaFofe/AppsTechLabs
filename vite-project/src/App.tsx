@@ -17,10 +17,10 @@ import AppstechLabs from "./Pages/appstechlabs";
 import Careers from "./Pages/careers/Careers";
 import Approach from "./Pages/Approach";
 import Lisence from "./Pages/license";
+import DBservices from "./Pages/oracleIntelligence";
 import ManagedServicces from "./Pages/Managed_Services";
 import OracleIntelligence from "./Pages/oracleIntelligence";
-import DBservices from "./Pages/DBservices";
-import Oracle_E_Business from "./Pages/oracle_e_buisiness_services";
+import CommunityOutreach from "./Pages/communityOutreach";
 
 function App() {
   return (
@@ -41,12 +41,13 @@ function App() {
         <Route path="/news" element={<News/>}/>
         <Route path="/comunity" element={<Comunity/>}/>
         <Route path="/appstechlabs" element={<AppstechLabs/>}/>
-        <Route path="/careers" element={<Careers/>}/>
+        <Route path="/career" element={<Careers />} />
+        <Route path="/community_outreach" element={<CommunityOutreach />} />
+        <Route path="/appstechlabs" element={<CommunityOutreach/>}/>
         <Route path="/approach" element={<Approach/>}/>
         <Route path="/license_management" element={<Lisence/>}/>
-        <Route path="/oracle_database_service" element={<DBservices/>}/>
+        <Route path="/oracle_database_services" element={<DBservices/>}/>
         <Route path="/managed_services" element={<ManagedServicces/>}/>
-        <Route path="/oracle_e_business_suit" element={<Oracle_E_Business/>}/>
       </Routes>
       <Footer/>
     </BrowserRouter>
