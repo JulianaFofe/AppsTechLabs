@@ -48,22 +48,13 @@ import worldmap from "../assets/images/global-globalization-world-map-environmen
 import whatweDo2 from "../assets/images/new_whatwedo.jpg"
 import bl1 from "../assets/images/bl1.png"
 import boss3 from "../assets/images/boss3.png"
-
 import redhat from "../assets/images/redhat.png"
 import linux_os from "../assets/images/Oracle-Linux 1.png"
 import linux_support from "../assets/images/linux-support.png"
 import linux_banner from "../assets/images/Linux-banner.png"
-import license from "../assets/images/license.jpeg"
-import oracleDB from "../assets/images/oracleDB.jpg"
-import career from "../assets/images/career.jpg"
-import e_services from "../assets/images/eracle_e_services.jpg"
-import certificate1 from '../assets/images/O_SpecPlat_DatabaseSecurity_clr.png'
-import certificate2 from '../assets/images/O_SpecPlat_OracleDB11g_PerfTuning_clr 1.png'
-import certificate3 from '../assets/images/O_SpecPlat_OracleEntMngr11g_clr.png'
-import business from "../assets/images/business.jpg"
-import oracle_certified from "../assets/images/oracle_certified.jpg"
-import global from "../assets/images/global.jpeg"
-import AGS_logo from "../assets/images/AGS_logo.png"
+import greeting from "../assets/images/diverse-friends-students-shoot.jpg"
+import activSpaces from "../assets/images/download.jpeg"
+import appstechlabs from "../assets/images/data-center-engineers-maintaining-company-network-infrastructure.jpg"
 
 export const images ={
     logo,
@@ -77,6 +68,8 @@ export const images ={
     team,
     visual_lense,
     trophy,
+    activSpaces,
+    appstechlabs,
     Afriland,
     map,
     oracle,
@@ -120,15 +113,5 @@ export const images ={
     linux_banner,
     bl1,
     boss3,
-    license,
-    oracleDB,
-    career,
-    e_services,
-    certificate1,
-    certificate2,
-    certificate3,
-    business,
-    oracle_certified,
-    global,
-    AGS_logo,
+    greeting,
 }

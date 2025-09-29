@@ -101,7 +101,7 @@ export const companyNavCardData = [
         path:"/about",
         icon:<FcAbout size={30} />
     },
-     {
+    {
         title:"News and Events",
         description:"AppsTech Labs is a solution center created to showcase",
         path:"/news",
