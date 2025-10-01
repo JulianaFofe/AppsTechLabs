@@ -55,6 +55,10 @@ import linux_banner from "../assets/images/Linux-banner.png"
 import greeting from "../assets/images/diverse-friends-students-shoot.jpg"
 import activSpaces from "../assets/images/download.jpeg"
 import appstechlabs from "../assets/images/data-center-engineers-maintaining-company-network-infrastructure.jpg"
+import business from "../assets/images/business.jpg"
+import oracle_certified from "../assets/images/oracle_certified.jpg"
+import global from "../assets/images/global.jpeg"
+import AGS_logo from "../assets/images/AGS_logo.png"
 
 export const images ={
     logo,
@@ -114,4 +118,8 @@ export const images ={
     bl1,
     boss3,
     greeting,
+    business,
+    oracle_certified,
+    global,
+    AGS_logo,
 }
