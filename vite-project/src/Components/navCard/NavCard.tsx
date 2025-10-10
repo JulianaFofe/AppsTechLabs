@@ -25,37 +25,37 @@ interface CardItems{
 export const NavCardData = [
     {
         title:"Cloud solution",
-        description:"AppsTech Labs is a solution center created to showcase",
+        description:"Oracle cloud products offer advantages in cost, security and agility.",
         path:"/cloud_solutions",
         icon:<IoIosCloudOutline size={30} />
     },
      {
         title:"Mobile Security",
-        description:"AppsTech Labs is a solution center created to showcase",
+        description:"Empower mobility without compromising security.",
         path:"/mobile_security",
         icon:<GoShieldCheck size={30}/>
     },
     {
         title:"Mobile solution",
-        description:"AppsTech Labs is a solution center created to showcase",
+        description:"Enterprise mobility is transformational",
         path:"/mobile_solution",
         icon:<FaMobileScreenButton size={30}/>
     },
     {
         title:"Oracle E business suit",
-        description:"AppsTech Labs is a solution center created to showcase",
+        description:"Streamline your operations with integrated oracle business applications.",
         path:"/oracle_e_bsns",
         icon:<FaCartShopping size={30}/>
     },
     {
         title:"Linux Virtualization",
-        description:"AppsTech Labs is a solution center created to showcase",
+        description:"Optimize performance and flexibility with secure linux virtualization",
         path:"/linux",
         icon:<FaTv size={30}/>
     },
     { 
         title:"Oracle Database",
-        description:"AppsTech Labs is a solution center created to showcase",
+        description:"Power your enterprise with the world`s most trusted database platform",
         path:"/oracle_database",
         icon:<CgDatabase size={30}/>
     }
@@ -64,31 +64,31 @@ export const NavCardData = [
 export const expertiseCardData = [
     {
         title:"License Management",
-        description:"AppsTech Labs is a solution center created to showcase",
+        description:"Simplify compliance and maximize value from your software licenses.",
         path:"/license_management",
         icon:<TbLicense size={30} />
     },
      {
         title:"Oracle Database Services",
-        description:"AppsTech Labs is a solution center created to showcase",
+        description:"Ensure reliability, performance, and security for your Oracle databases.",
         path:"/oracle_database_service",
         icon:<CgDatabase size={30}/>
     },
     {
         title:"Oracle E-business Suite services",
-        description:"AppsTech Labs is a solution center created to showcase",
+        description:"Enhances and support your Oracle applications for peak efficiency",
         path:"/oracle_e_business_suit",
         icon:<BsFillSuitcaseLgFill size={30} />
     },
     {
         title:"Managed services",
-        description:"AppsTech Labs is a solution center created to showcase",
+        description:"Focus on your business while we manage your IT operations seamlessly.",
         path:"/managed_services",
         icon:<MdMiscellaneousServices size={30}/>
     },
     {
         title:"Approach",
-        description:"AppsTech Labs is a solution center created to showcase",
+        description:"We combine expertise, innovaation, and partnership to deliver lasting results.",
         path:"/approach",
         icon:<BsPeopleFill size={30}/>
     },
@@ -97,31 +97,31 @@ export const expertiseCardData = [
 export const companyNavCardData = [
     {
         title:"About",
-        description:"Our Story",
+        description:"Discover our story and how we empower businesses worldwide",
         path:"/about",
         icon:<FcAbout size={30} />
     },
     {
         title:"News and Events",
-        description:"AppsTech Labs is a solution center created to showcase",
+        description:"Stay updated with our latest innovations, stories, and impact.",
         path:"/news",
         icon:<FaRegNewspaper size={30}/>
     },
     {
         title:"Community outreach",
-        description:"AppsTech Labs is a solution center created to showcase",
+        description:"Building stronger communities throught technology and impact",
         path:"/community_outreach",
         icon:<FaGlobe size={30} />
     },
     {
-        title:"AppsTech Labs",
-        description:"AppsTech Labs is a solution center created to showcase",
+        title:"AppsTechLabs",
+        description:"Innovating the future through research, creativity and technology",
         path:"/appstechlabs",
         icon:<MdOutlineDeveloperMode size={30}/>
     },
     {
         title:"Careers",
-        description:"AppsTech Labs is a solution center created to showcase",
+        description:"Join our team and grow your career with global technology leaders",
         path:"/careers",
         icon:<FaUserEdit size={30}/>
     }

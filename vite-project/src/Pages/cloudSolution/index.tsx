@@ -21,25 +21,23 @@ function CloudSolution() {
       </div>
 
       {/*Cloud Platform*/}
-      <div className="flex items-center justify-center px-10 py-20">
+      <div className="flex items-center px-10 py-20">
         <Section heading="Cloud Platform" image={images.cloudPlatform} className="flex-col  md:flex-row">
-          <div className="flex flex-col max-md:text-center">
+          <div className="flex flex-col text-xl text-accent max-md:text-center">
             <p>
-              Explore a wide range of Oracle cloud services with just one click
-            </p>
+             Cloud Platform
+Oracle’s Cloud Platform provides a shared and elastically scalable platform for consolidating existing applications and developing and deploying new applications.</p>
             <Button title="Learn More" />
           </div>
         </Section>
       </div>
 
       {/*Cloud Infrastructure*/}
-      <div className="flex items-center justify-center px-6 py-20">
+      <div className="flex items-center px-6 py-20">
         <Section heading="Cloud Infrastructure" image={images.cloud} className="flex-col items-center max-sm:flex-col flex-row-reverse">
-          <div className="flex flex-col max-md:text-center">
+          <div className="flex flex-col text-xl text-accent max-md:text-center">
             <p>
-              Oracle’s Cloud Platform provides a shared and elastically scalabel
-              platform for consolidating existing applications and developing
-              and deploying new applications.
+             Oracle’s Cloud Infrastructure offers a complete selection of servers, storage, networking fabric, virtualization software, operating systems, and management software to support diverse application requirements
             </p>
             <Button title="Learn More" />
           </div>

@@ -17,20 +17,20 @@ const CommunityOutreach = () => {
         Sharing Knowledge, Sharing Success
       </h3>
 
-      <p className="text-gray-700 mb-4">
+      <p className="text-accent text-xl mb-4">
         At AppsTech our community outreach program is focused on fostering entrepreneurship and
         technology innovation in the communities in which we operate. Through partnerships with
         organizations such as ActivSpaces we make this mission a reality.
       </p>
 
       {/* For the last paragraph, logo on left, text on right */}
-      <div className="flex items-center max-w-xl mx-auto space-x-8 text-justify">
+      <div className="flex items-center py-20 max-w-3xl mx-auto justify-between gap-20 text-justify">
         <img
           src={images.activSpaces}
           alt="ActivSpaces Logo"
           className="w-40 h-30 object-contain"
         />
-        <p className="text-gray-700">
+        <p className="text-accent">
           AppsTech also actively mentors young technology entrepreneurs the world over, helping them
           translate their ideas into businesses. We engage the tech community by hosting training
           sessions, barcamps, hackathons and other events in our offices.
