@@ -77,7 +77,7 @@ function About() {
         <div className="flex flex-col items-center  py-[1rem] md:py-[3rem] px-6">
           <h1 className="text-2xl font-bold text-primary  py-[1rem] md:py-[3rem]">Why Choose Appstecch</h1>
           <Section heading="" image={images.whatweDo2} className="flex-col-reverse md:flex-row-reverse ">
-            <li className="text-md  md:text-xl text-accent">Hundreds of 	success projects</li>
+            <li className="text-md  md:text-xl text-accent">Hundreds of success projects</li>
             <li className="text-md  md:text-xl text-accent">Seasoned 	professionals</li>
             <li className="text-md  md:text-xl text-accent">Deep expertise</li>
             <li className="text-md  md:text-xl text-accent">Commitment to 	client success</li>

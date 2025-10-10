@@ -1,188 +1,116 @@
-import React from 'react'
-import InfoBloc from '../../Components/InfoBloc'
-import Button  from '../../Components/Button/Button'
-import { images } from '../../Types/images'
+
+import InfoBloc from "../../Components/InfoBloc";
+import Button from "../../Components/Button/Button";
+import { images } from "../../Types/images";
 
 function Blog() {
   return (
     <>
-    {/* Banner Section */}
-      <div className="text-center pt-20 w-full px-20 max-md:px-10">
+      {/* Banner Section */}
+      <div className="text-center pt-24 pb-10 w-full px-10 md:px-20 bg-gradient-to-b from-gray-50 to-white">
         <InfoBloc
-          title="AppsTech Innovation for smarter Business"
-          description="Discover the ideas and innovation driving AppsTech. On our blog, we explore industry trends, 
-          share breakthroughs, and offer a behind-the-scenes look at our journey
-          to build better solutions.."
-          titleClass="text-4xl text-primary font-bold pb-7 2xl:text-6xl"
-          descriptionClass="text-sm text-black whitespace-pre-line 2xl:text-xl"
+          title="AppsTech Innovation for Smarter Business"
+          description="Discover the ideas and innovation driving AppsTech. On our blog, we explore industry trends, share breakthroughs, and offer a behind-the-scenes look at our journey to build better solutions."
+          titleClass="text-4xl md:text-5xl text-primary font-extrabold pb-5"
+          descriptionClass="text-accent text-lg md:text-xl leading-relaxed max-w-4xl mx-auto"
         />
       </div>
 
-    {/* Blog:E-Business Suite */}
-      <div className="mt-20 flex max-md:flex-col justify-center items-center gap-10 max-md:px-10 px-20 w-full">
-        <InfoBloc
+      {/* Blog Section Template */}
+      <BlogItem
         image={images.bl1}
-        imageClass='w-[100%]'
-        description='Stella Joyce Bulu
-                     AppsTech Apps DBA'
-        descriptionClass='text-center leading-7 whitespace-pre-line text-sm'        
-        className='w-[70%] max-md:w-[50%] xl:w-[40%]'
-        />
-        <div className='max-md:text-center flex-col'>
-        <InfoBloc
-        title='Oracle  E-Business Suite security'
-        description='There are so many misconceptions about securing Oracle E-Business Suite applications that most 
-          Apps DBAs call Myths.Fortunately versus these myths are realities that show that security in your Oracle 
-          E-Business is more than just installing an antivirus on the system or attributing passwords. Security comes at 
-          different levels and in different forms, from data loss or theft to fraud passing by misusing system privileges 
-          are all security threats and risks for the application. '
-           titleClass="text-4xl text-primary lg:indent-18 font-bold pb-7 2xl:text-6xl"
-          descriptionClass="text-sm text-black 2xl:text-xl"
-        />
-        <div className='md:text-right md:mr-15'><Button title='Read more'/></div>
-        </div>
-      </div>
-        <div className="mt-20 flex max-md:flex-col justify-center items-center gap-10 max-md:px-10 px-20 w-full">
-        <InfoBloc
+        author="Stella Joyce Bulu"
+        role="AppsTech Apps DBA"
+        title="Oracle E-Business Suite Security"
+        description="There are so many misconceptions about securing Oracle E-Business Suite applications that most Apps DBAs call myths. Fortunately, versus these myths are realities that show security in your Oracle E-Business is more than just installing antivirus software or assigning passwords. Security spans multiple levels — from preventing data theft and fraud to ensuring system privilege protection."
+      />
+
+      <BlogItem
         image={images.boss3}
-        imageClass='w-[100%]'
-        description='Rebecca Enonchong
-                     AppsTech CEO'
-        descriptionClass='text-center leading-7 whitespace-pre-line text-sm'        
-        className='w-[120%] max-md:w-[50%] xl:w-[60%]'
-        />
-        <div className='max-md:text-center flex-col'>
-        <InfoBloc
-        title='AppsTech CEO Featured in Forbes'
-        description='Enonchong, a Cameroonian national, is the founder and CEO of AppsTech, a Bethesda, Maryland-based 
-          global provider of enterprise application solutions. AppsTech, which was founded in 1999 now has clients 
-          in more than 40 countries on 3 continents. The company, an Oracle Platinum partner, offers a diverse range
-          of enterprise software products and services including implementation, training and application management 
-          services for large and medium-sized companies. Enonchong also serves as an advisor/mentor to several 
-          African tech startups and is also the founder the Africa Technology Forum, a non-profit organization dedicated 
-          to promoting technology in Africa.'
-           titleClass="text-4xl text-primary lg:indent-18 font-bold pb-7 2xl:text-6xl"
-          descriptionClass="text-sm text-black 2xl:text-xl"
-        />
-        <div className='md:text-right md:mr-15'><Button title='Read more'/></div>
-        </div>
-      </div>
-      <div className="mt-20 flex-col max-md:text-center justify-end self-end w-full md:px-20 max-md:px-8">
-        <InfoBloc
-          title="Introducing AppsTech Mobile Security for iOS and Android Devices"
-          description={
-            <>
-            <ul>
-              <li className='pb-1'>
-                Bethesda, MD. – February 27, 2014
-              </li>
-              <li>
-                As the workforce becomes increasingly mobile, the need for organizations to control access and protect company data on mobile devices 
-                has become more critical than ever. When it comes to mobile security, organizations need a solution that offers advanced security 
-                controls for corporate devices and personal devices (also known as Bring Your Own Device/BYOD or Corporate Owned Personally Enabled/
-                COPE), while providing a simplified user experience. With AppsTech’s Mobile Security solution, organizations have the flexibility to permit 
-                enterprise access from users’ devices with more granular control by isolating corporate and personal data, enabling secure enterprise 
-                application access.                      
-              </li>
-            </ul>
-            </>
-          }
-                                                                                                                                                                                                      
-          titleClass="text-3xl text-center text-primary font-bold pb-7 2xl:text-6xl"
-          descriptionClass="text-sm text-black 2xl:text-xl"/>
-          <div className='md:text-right md:mr-15'>
-          <Button title='Read more'/>
-          </div>
-      </div>
-      <div className="mt-20 flex-col max-md:text-center justify-end self-end w-full md:px-20 max-md:px-8">
-        <InfoBloc
-          title="Oracle introduces Oracle E-Business Suite R12.2"
-          description={
-            <>
-            <ul>
-              <li className='pb-1'>
-                Redwood Shores, Calif. – September 19, 2013
-              </li>
-              <li>
-                With the complexities of today’s global business environments, organizations depend on the high availability of their mission-critical systems. 
-                To help customers manage that complexity and ensure continuous operation of their key business processes, Oracle has released Oracle E-
-                Business Suite 12.2. The latest release introduces Online Patching to support organizations with high-availability requirements by dramatically 
-                reducing planned maintenance downtimes, increases performance by exploiting latest, cutting-edge features of the Oracle platform, and 
-                provides cross-industry enhancements spanning key business applications. With the powerful new capabilities, organizations will be able to 
-                leverage an integrated suite of business applications to make better decisions, reduce costs and increase performance.      
-              </li>
-            </ul>
-            </>
-          }
-                                                                                                                                                                                                      
-          titleClass="text-3xl text-center text-primary font-bold pb-7 2xl:text-6xl"
-          descriptionClass="text-sm text-black 2xl:text-xl"/>
-          <div className='md:text-right md:mr-15'>
-          <Button title='Read more'/>
-          </div>
-      </div>
-      <div className="mt-20 flex-col max-md:text-center justify-end self-end w-full md:px-20 max-md:px-8">
-        <InfoBloc
-          title="Oracle Announces General Availability of Oracle Database 12c, 
-          the First Database Designed for the Cloud"
-          description={
-            <>
-            <ul>
-              <li className='pb-1'>
-                Redwood Shores, Calif. – July 1, 2013
-              </li>
-              <li>
-                As organizations embrace the cloud, they seek technologies that will transform business and improve their overall operational agility and 
-                effectiveness. Oracle Database 12c is a next-generation database designed to meet these needs, providing a new multitenant architecture on 
-                top of a fast, scalable, reliable, and secure database platform. By plugging into the cloud with Oracle Database 12c, customers can improve 
-                the quality and performance of applications, save time with maximum availability architecture and storage management and simplify 
-                database consolidation by managing hundreds of databases as one
+        author="Rebecca Enonchong"
+        role="AppsTech CEO"
+        title="AppsTech CEO Featured in Forbes"
+        description="Enonchong, a Cameroonian national, is the founder and CEO of AppsTech, a global provider of enterprise application solutions. Founded in 1999, AppsTech now serves clients in over 40 countries across three continents. As an Oracle Platinum Partner, the company delivers enterprise software services, training, and application management solutions while empowering African tech startups through mentorship and innovation."
+      />
 
-                                                                                                                                                                                                                              
-              </li>
-            </ul>
-            </>
-          }
-                                                                                                                                                                                                      
-          titleClass="text-3xl text-center text-primary font-bold pb-7 2xl:text-6xl"
-          descriptionClass="text-sm text-black 2xl:text-xl"/>
-          <div className='md:text-right md:mr-15'>
-          <Button title='Read more'/>
-          </div>
-      </div>
-      <div className="mt-20 pb-30 flex-col max-md:text-center justify-end self-end w-full md:px-20 max-md:px-8">
-        <InfoBloc
-          title="Oracle Renews AppsTech’s Oracle Platinum Membership"
-          description={
-            <>
-            <ul>
-              <li className='pb-1'>
-                Bethesda, MD. – January 15
-              </li>
-              <li>
-                AppsTech, a global provider of enterprise solutions, today announced that Oracle has renewed its Platinum Partner status in the Oracle 
-                PartnerNetwork (OPN). By attaining Platinum level membership, Oracle has recognized AppsTech for its in-depth expertise and excellence in 
-                delivering Oracle solutions.<br/>
-                With its Platinum status, AppsTech receives the benefit of being recognized and preferred by Oracle and its customers, and receiving the 
-                highest level of engagement, commitment and benefits available to OPN partners. Platinum members receive dedicated virtual account 
-                management support to build joint development plans and help broaden specialization areas and revenue opportunities. Additional benefits 
-                include priority placement in the OPN Solutions Catalog, one free application integration validated by Oracle, joint marketing and sales 
-                opportunities, discounted training and more.
+      {/* Mobile Security */}
+      <BlogHighlight
+        title="Introducing AppsTech Mobile Security for iOS and Android Devices"
+        date="Bethesda, MD – February 27, 2014"
+        description="As the workforce becomes increasingly mobile, organizations must secure access and protect corporate data on mobile devices. AppsTech’s Mobile Security solution offers advanced BYOD/COPE management, isolating personal and corporate data while maintaining seamless enterprise access."
+      />
 
-                                                                                                                                                                                                                              
-              </li>
-            </ul>
-            </>
-          }
-                                                                                                                                                                                                      
-          titleClass="text-3xl text-center text-primary font-bold pb-7 2xl:text-6xl"
-          descriptionClass="text-sm text-black 2xl:text-xl"/>
-          <div className='md:text-right md:mr-15'>
-          <Button title='Read more'/>
-          </div>
-      </div>
+      {/* Oracle R12.2 */}
+      <BlogHighlight
+        title="Oracle Introduces Oracle E-Business Suite R12.2"
+        date="Redwood Shores, Calif. – September 19, 2013"
+        description="Oracle E-Business Suite 12.2 introduces online patching to reduce maintenance downtime and improve system performance. With advanced scalability, the update empowers enterprises to make smarter decisions, reduce costs, and optimize global business operations."
+      />
+
+      {/* Oracle Database 12c */}
+      <BlogHighlight
+        title="Oracle Announces General Availability of Oracle Database 12c"
+        date="Redwood Shores, Calif. – July 1, 2013"
+        description="Oracle Database 12c introduces a new multitenant architecture optimized for the cloud. It enhances operational agility, simplifies database consolidation, and delivers improved performance, making it ideal for organizations embracing modern cloud environments."
+      />
+
+      {/* Platinum Membership */}
+      <BlogHighlight
+        title="Oracle Renews AppsTech’s Oracle Platinum Membership"
+        date="Bethesda, MD – January 15"
+        description="Oracle has renewed AppsTech’s Platinum Partner status, recognizing its expertise in delivering Oracle-based enterprise solutions. This status provides priority support, joint marketing opportunities, and specialized technical benefits to expand AppsTech’s global impact."
+      />
     </>
-  )
+  );
 }
 
-export default Blog
+/* --- BlogItem Component --- */
+const BlogItem = ({ image, author, role, title, description }: any) => (
+  <div className="mt-20 flex flex-col md:flex-row items-center justify-center gap-10 md:px-20 px-6 transition-all duration-500 hover:scale-[1.01]">
+    <div className="flex flex-col items-center text-center md:w-1/3 space-y-2">
+      <img
+        src={image}
+        alt={author}
+        className="w-full rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300"
+      />
+      <p className="text-accent text-sm">
+        {author} <br /> {role}
+      </p>
+    </div>
+    <div className="md:w-2/3 space-y-5">
+      <InfoBloc
+        title={title}
+        description={description}
+        titleClass="text-3xl md:text-4xl text-primary font-bold"
+        descriptionClass="text-accent text-lg md:text-xl leading-relaxed"
+      />
+      <div className="text-right">
+        <Button title="Read more" />
+      </div>
+    </div>
+  </div>
+);
+
+/* --- BlogHighlight Component --- */
+const BlogHighlight = ({ title, date, description }: any) => (
+  <div className="mt-20 flex flex-col items-center w-full md:px-20 px-8 text-center transition-all duration-500 hover:-translate-y-1">
+    <InfoBloc
+      title={title}
+      description={
+        <>
+          <ul className="space-y-2">
+            <li className="text-gray-600 font-semibold">{date}</li>
+            <li>{description}</li>
+          </ul>
+        </>
+      }
+      titleClass="text-3xl md:text-4xl text-primary font-bold pb-4"
+      descriptionClass="text-accent text-lg md:text-xl leading-relaxed max-w-4xl mx-auto"
+    />
+    <div className="text-right mt-4 w-full md:pr-20">
+      
+    </div>
+  </div>
+);
+
+export default Blog;

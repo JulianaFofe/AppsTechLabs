@@ -8,7 +8,7 @@ import { FaRegFileAlt } from "react-icons/fa";
 function MobileSecurity() {
   return (
     <div className="mx-4 md:mx-10">
-      <div className="space-y-10 py-10 md:py-25">
+      <div className="space-y-10 py-10 md:py-25 animate-fadeIn">
         <div className="space-y-3">
           <h1 className="font-medium text-2xl md:text-3xl text-primary text-center">
             Appstech Mobile Security
@@ -29,16 +29,15 @@ function MobileSecurity() {
             <p className="font-semibold text-gray-400 pt-4 md:pt-6 text-sm md:text-base">
               Supported by Oracle's powerful suite of identity management tools,
               AppsTech's Mobile Security solution delivers authentication and
-              authorization for applications and services, application signing
-              and wrapping, enterprise application store, device wipe, device
-              enrollment, and provisioning—all in a simplified management
+              provisioning—all in a simplified management
               framework.
             </p>
           </div>
           <img
             src={MobileSecurityImage}
             alt="mobile security"
-            className="rounded-xl w-full max-w-[400px] object-contain"
+            className="rounded-xl w-full max-w-[400px] object-contain
+             transition-transform duration-500 ease-in-out hover:scale-105"
           />
         </div>
 
@@ -47,7 +46,7 @@ function MobileSecurity() {
         </div>
 
         {/* Feature Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-10 px-2 md:px-10 mt-5">
+        <div className="text-accent grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-10 px-2 md:px-10 mt-5">
           {[
             {
               icon: <GoShield size={28} className="text-white" />,
@@ -68,7 +67,8 @@ function MobileSecurity() {
           ].map((item, idx) => (
             <div
               key={idx}
-              className="border border-gray-200 rounded-md shadow-sm p-4 md:p-6 space-y-4"
+              className="border border-gray-200 rounded-md shadow-sm p-4 md:p-6 space-y-4
+             transition-transform duration-300 ease-in-out hover:scale-105 hover:shadow-lg"
             >
               <div className="flex items-center gap-3">
                 <div className="rounded-xl bg-primary p-2">{item.icon}</div>
@@ -87,7 +87,7 @@ function MobileSecurity() {
             APPSTECH MOBILE SECURITY BENEFITS
           </h2>
           <div className="border mt-6 border-gray-300 shadow-sm py-8 md:py-15 rounded-xl px-4 md:px-6">
-            <ul className="list-disc pl-5 space-y-3 text-sm md:text-base">
+            <ul className="list-disc pl-5 space-y-3 text-accent text-sm md:text-base">
               <li>
                 Provides a trusted and independent mobile workspace for
                 enterprise applications, email, and data

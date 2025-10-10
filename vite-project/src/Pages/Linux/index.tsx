@@ -1,4 +1,4 @@
-import React from 'react';
+
 import InfoBloc from '../../Components/InfoBloc';
 import { images } from '../../Types/images';
 
@@ -24,7 +24,7 @@ function Linux() {
             significantly in testing Oracle Linux and releasing critical bug fixes faster, enabling enterprises to deploy with confidence. 
             An Oracle Linux Support provides industry-leading global support for the Linux operating system at dramatically lower cost.'
           titleClass="text-4xl text-primary font-bold pb-7 2xl:text-6xl"
-          descriptionClass="text-sm text-black whitespace-pre-line 2xl:text-xl"
+          descriptionClass=" text-accent text-md whitespace-pre-line 2xl:text-xl"
         />
       </div>
 
@@ -58,8 +58,8 @@ function Linux() {
               </ul>
             </> 
           } max-md:flex
-          descriptionClass="text-sm mt-10 max-h-20 pb-50 text-left text-black max-md:w-[100vw] max-md:px-8 2xl:text-xl"
-          className='w-[75%]'
+          descriptionClass="text-accent text-md mt-10 max-h-20 pb-50 text-left max-md:w-[100vw] max-md:px-8 2xl:text-xl"
+          className='w-[75%]  text-accent text-md'
           />
       </div>
       </div>
@@ -84,7 +84,7 @@ function Linux() {
           description='The Oracle Linux Support program provides enterprise-grade support with premier backports, 
             management tools, cluster software, testing, and indemnification at a lower cost, offering comprehensive 
             solutions to help organizations succeed with Linux.'
-          descriptionClass="text-sm mt-10 max-h-20 pb-50 text-left max-md:pb-40 max-md:px-8 max-md:w-[100vw] text-black 2xl:text-xl"
+          descriptionClass=" text-accent text-md mt-10 max-h-20 pb-50 text-left max-md:pb-40 max-md:px-8 max-md:w-[100vw] 2xl:text-xl"
           className='w-[75%]'
           />
       </div>
@@ -114,8 +114,8 @@ function Linux() {
                 hardware platforms and thousands of applications, and powering critical operations like trades,<br />
                 purchases, and analysis daily.
               </p>
-              <span className="text-3xl text-primary font-bold max-md:px-2 2xl:text-5xl">Built for the modern data center</span>
-              <p className="pt-5">
+              
+              <p className="pt-1">
                 Red Hat Enterprise Linux is designed for modern datacenters, offering pervasive networking, virtualization, 
                 strong security, and support for multicore hardware. It enables seamless transitions to next-generation 
                 IT environments and provides long-term stability with support for all major hardware architectures and 
@@ -123,7 +123,7 @@ function Linux() {
               </p>
             </> 
           } 
-          descriptionClass="text-sm mt-10 max-h-20 pb-50 text-left text-black max-md:px-8 max-md:text-center max-md:w-[100vw] 2xl:text-xl"
+          descriptionClass=" text-accent text-md mt-10 max-h-20 pb-50 text-left  max-md:px-8 max-md:text-center max-md:w-[100vw] 2xl:text-xl"
           className='w-[75%] max-md:w-full'
           />
       </div>

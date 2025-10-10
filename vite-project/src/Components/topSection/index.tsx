@@ -25,7 +25,7 @@ const TopSection: React.FC<TopProps> = ({ title, image, subtitle }) => {
 
       {/* Subtitle */}
       {subtitle && (
-        <p className="text-accent text-base sm:text-lg md:text-xl lg:text-2xl max-w-3xl">
+        <p className="text-accent pt-2 text-xl sm:text-lg md:text-xl lg:text-2xl max-w-3xl">
           {subtitle}
         </p>
       )}
